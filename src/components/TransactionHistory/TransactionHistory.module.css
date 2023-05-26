@@ -1,0 +1,19 @@
+.transactionHistory {
+	text-align: center;
+	font-size: 25px;
+}
+
+.transactionHistory>thead>tr th {
+	background-color: #00BCD5;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+}
+
+tbody>tr:nth-child(odd) {
+	background-color: tomato;
+}
+
+tbody>tr:nth-child(even) {
+	background-color: greenyellow;
+}

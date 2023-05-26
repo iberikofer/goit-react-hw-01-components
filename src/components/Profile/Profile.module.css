@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+
+.profile {
+	background-color: white;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: grey;
+	border: 1px solid black;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	margin-top: 50px;
+}
+
+.description {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	padding: 50px 100px;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	background-color: brown;
+	border-radius: 50%;
+	border: 5px solid greenyellow;
+	margin-bottom: 40px;
+}
+
+.name {
+	font-weight: 600;
+	font-size: 35px;
+	color: black;
+}
+
+.stats {
+	display: flex;
+	justify-content: stretch;
+	background-color: gainsboro;
+	border-radius: 0px 0px 20px 20px;
+	margin: 0;
+}
+
+.stats>li {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	align-items: center;
+	border: 1px solid gray;
+	flex-grow: 1;
+}
+
+.stats>li:first-child {
+	border-radius: 0px 0px 0px 20px;
+}
+
+.stats>li:last-child {
+	border-radius: 0px 0px 20px 0px;
+}
+
+.stats>li>span:last-child {
+	font-weight: 800;
+	color: black;
+}
