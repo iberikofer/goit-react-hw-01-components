@@ -4,7 +4,7 @@ import css from './Statistics.module.css';
 export default function CreateStatistics(props) {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>{props.title}</h2>
+      {props.title && <h2 className={css.title}>{props.title}</h2>}
 
       <ul className={css.statList}>
         {props.data.map(item => {
